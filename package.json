@@ -10,7 +10,8 @@
   "main": "index.js",
   "type":"module",
   "scripts": {
-    "test": "tsx --test test/sandbox.test.ts"
+    "test": "tsx --test test/sandbox.test.ts",
+    "start": "tsx --env-file=.env src/server.ts"
   },
   "keywords": [],
   "author": "",
