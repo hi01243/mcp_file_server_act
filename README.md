@@ -45,7 +45,7 @@ evidence/              folder is commited
 .env                   MCP\_TOKEN (never committed)
 
 ```
-
+`workspace/` is the agent's own git repo and is not included here. Its handoff files and git log are copied into `evidence/`.
 
 
 \## Setup
