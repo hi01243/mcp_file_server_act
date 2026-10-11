@@ -74,27 +74,17 @@ Connect a client to `https://<your-domain>/mcp` with the token, either as a Bear
 
 
 
-| Tool | What it does |
-
-|---|---|
-
-| `list\_files` | List files and folders |
-
-| `read\_file` | Read a text file |
-
-| `write\_file` | Create or overwrite a file (200 KB limit) |
-
-| `str\_replace` | Replace one exact piece of text; fails on zero or multiple matches |
-
-| `delete\_file` | Delete a file (files only, not folders) |
-
-| `search\_files` | Search text inside files |
-
-| `git\_status` | Show repo status |
-
-| `git\_diff` | Show uncommitted changes |
-
-| `git\_commit` | Stage everything and commit with a fixed identity |
+| Tool          | What it does                                                        |
+|---------------|---------------------------------------------------------------------|
+| `list_files`  | List files and folders                                              |
+| `read_file`   | Read a text file                                                    |
+| `write_file`  | Create or overwrite a file (200 KB limit)                           |
+| `str_replace` | Replace one exact piece of text; fails on zero or multiple matches  |
+| `delete_file` | Delete a file (files only, not folders)                             |
+| `search_files`| Search text inside files                                            |
+| `git_status`  | Show repo status                                                    |
+| `git_diff`    | Show uncommitted changes                                            |
+| `git_commit`  | Stage everything and commit with a fixed identity                   |
 
 
 
