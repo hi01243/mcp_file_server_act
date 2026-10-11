@@ -2,7 +2,7 @@
 
 
 
-A sandboxed file-server built on the Model Context Protocol (MCP). An AI agent (Claude) connects to it over HTTPS and works on files inside one folder, `workspace/`, using 9 tools. Built for the CS 3A/3B midterm.
+A sandboxed file-server built on the Model Context Protocol (MCP). An AI agent (Claude) connects to it over HTTPS and works on files inside one folder, `workspace/`, using 9 tools. Built for the midterms.
 
 
 
