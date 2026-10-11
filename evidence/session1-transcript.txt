@@ -1,0 +1,26 @@
+You are working in my MCP workspace. Start by reading AGENTS.md, PROJECT_STATE.md, PLAN_LOG.md, CHECKPOINTS.md and DECISIONS.md.
+
+Then do Session 1 of the "Flashcard CLI" task described in AGENTS.md: the add and list commands, the cards file, the README, and 3 sample cards.
+
+Follow the rules in AGENTS.md: write your plan in PLAN_LOG.md first, checkpoint and commit after each finished part, log design choices in DECISIONS.md, and update PROJECT_STATE.md at the end so a fresh session can continue. Do not start Session 2 work.
+
+Used workspace integration, loaded tools
+Weighing the tradeoffs of exposing tokens in URLs.
+Session 1 is written, but nothing has been run or committed.
+
+No commits: this session only had file tools (read, write, list, str_replace, delete). There was no git_commit tool, so every checkpoint in CHECKPOINTS.md is marked “commit NOT made”. Everything is uncommitted until you or the next session commits it.
+Never executed: I couldn’t run node. I checked the work by reading the files back and tracing the code by hand, so please run node flashcards/cli.js list and an add before trusting it. An add test will append a card to cards.json.
+What’s in place, per AGENTS.md:
+
+flashcards/cli.js: add "front" "back" and list, with usage errors and exit code 1 on bad input. It creates cards.json if it’s missing.
+flashcards/cards.json: 3 sample cards (capital of France, what HTML stands for, 7 x 8).
+flashcards/README.md: usage examples for both commands.
+Logs: the plan is in PLAN_LOG.md, four checkpoints are in CHECKPOINTS.md, and DECISIONS.md has new entries 5–9. These cover:
+the cards path resolved from the script location,
+add requiring two non-empty arguments,
+exported functions so Session 2 can test them,
+never overwriting an invalid cards.json,
+the N. front -> back list format.
+PROJECT_STATE.md: records what’s done, the Session 2 steps, and the two open problems above.
+I didn’t start any Session 2 work (quiz, test.js). The state file notes that tests shouldn’t overwrite the real cards.json, so Session 2 may want to make the cards path overridable.
+
